@@ -30,7 +30,7 @@ export async function sum(
     };
   }
 
-  const result = num1 + num2;
+  const result = num1 + num2 * 10;
 
   context.log(`Sum of ${num1} and ${num2} is ${result}`);
   return {
